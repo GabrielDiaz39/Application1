@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtraActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading here!!"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="33dp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:text="She came to the conclusion that that son for whom she would have given her life was simply a man incapable of love. One night, when she had him in her womb, she heard him cry. It was such a definite lament that José Arcadio Buendía woke up Beside him and rejoiced at the idea that the boy was going to be a ventriloquist. Other people predicted that he would be a fortune teller. She, on the other hand, shuddered with the certainty that that deep roar was a first indication of (that).. ... the crying of children in the mother's womb is not an announcement of ventriloquism or divinatory faculty, but an unequivocal sign of incapacity for love."
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nxt_btn" />
+</LinearLayout>
